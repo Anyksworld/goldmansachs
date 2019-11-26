@@ -116,10 +116,10 @@ nav{
 	margin-top: 30px;
 
 }
-footer{
+.footer{
 	background:black;
 }
-p{
+.firstp{
 	color:white;
 	text-align:center;
 }
