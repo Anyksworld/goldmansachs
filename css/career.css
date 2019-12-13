@@ -1,0 +1,143 @@
+body{
+	margin: 0px;
+}
+.container{
+	padding-left: 10px;
+}
+.navigate{
+	background: repeating-linear-gradient(#b6dde9,#ffd455);
+}
+.navbrand{
+	width:100px;
+	margin-top:10px; 
+	margin-left:15px;
+	margin-bottom: 10px;
+}
+.nav-group{
+	background:#7399c6;
+	color:white;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.nav-item{
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+.nav-special{
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+.img1{
+	width: 100%;
+}
+.text1{
+	font-size: 2.35rem;
+	margin-left: 10px;
+	color: #333333;
+	width:100%;
+}
+.text2{
+	font-family: "UniversLTPro-55Roman", "Arial",Sans-Serif;
+ 	font-size: 16px;
+	line-height: 1.6;
+	width:100%;
+	margin-left: 10px;
+	
+}
+.anchor1:hover{
+	color:#1c3554;
+}
+.anchor1{
+	color:#1a73e8;
+	width:100%;
+}
+.text3{
+	font-family: "UniversLTPro-55Roman", "Arial",Sans-Serif;
+	font-size: 16px;
+	line-height: 1.6;
+	width:100%;
+	margin-left: 10px;
+	color:#1a73e8; 
+}
+.text4{
+	font-family: "UniversLTPro-55Roman", "Arial",Sans-Serif;
+ 	font-size: 16px;
+	line-height: 1.6;
+	margin-left: 10px;
+	font-weight: bold;
+	margin-top:50px;
+  	color:#333333;
+  	width:100%;
+}
+.text5{
+	font-family: "UniversLTPro-55Roman", "Arial",Sans-Serif;
+ 	font-size: 16px;
+	line-height: 1.6;
+	margin-left: 10px;
+	font-weight: bold;
+	color:#333333;
+	width:100%;
+}
+.text6:hover{
+	color:#1c3554;
+	text-decoration: underline;
+}	
+.text3:hover{
+	color:#1c3554;
+	text-decoration: underline;
+}
+.text6{
+	font-family: "UniversLTPro-55Roman", "Arial",Sans-Serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color:#1a73e8; 
+	text-align: right;
+	width:100%;
+}
+.text7{
+	color:#aed4ef;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 0.75rem;
+}
+.img2{
+	border-bottom: solid #aed4ef 0.5px;
+	width:100%;
+	height: 100px;
+	margin-top:10px;
+	margin-bottom:10px; 
+}
+.contain{
+	background: black;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.text8{
+	border-top: solid grey thin;
+	color:white;
+	font-size: 0.7rem;
+    display: block;
+    list-style-type: disc;
+    padding-top: 10px;
+}
+@media(min-width: 500px){
+	.navigation{
+		display: flex;
+	}
+	.nav-group{
+		display:flex;
+		margin-right: auto;
+		width:100%;
+	}
+	.nav-item{
+		margin-right: 10px;	
+	}
+	.nav-special{
+		margin-left:500px; 
+	}
+}
